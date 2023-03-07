@@ -1,9 +1,4 @@
-// -> class base
-// class Student1{
-//     constructorStudent(imageUrl, studentName, studentPath){
-//         console.log(this);
-//     }
-// }
+
 
 //-> functional base
 function Student(imageUrl, studentName, studentPath) {
@@ -12,7 +7,7 @@ function Student(imageUrl, studentName, studentPath) {
   this.imageUrl = imageUrl;
   this.studentName = studentName;
   this.studentPath = studentPath;
-  // console.log(this);
+  // console.log(this); 
 }
 
 const std = new Student("url", "Caglar", "Fullstack");
